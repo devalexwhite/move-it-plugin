@@ -1,0 +1,19 @@
+{
+  "name": "move-it",
+  "version": "1.0.0",
+  "description": "A size and position helper for Figma.",
+  "main": "code.js",
+  "scripts": {
+    "build": "parcel ./src/code.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
+    "parcel": "^2.2.1"
+  },
+  "dependencies": {
+    "@figma/plugin-typings": "^1.41.1",
+    "figma-plugin-ds": "^1.0.1"
+  }
+}

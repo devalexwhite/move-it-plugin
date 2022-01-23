@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "target": "es6",
+    "lib": ["es6", "DOM"],
+    "typeRoots": ["./node_modules/@types", "./node_modules/@figma"]
+  }
+}

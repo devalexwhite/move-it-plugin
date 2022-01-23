@@ -1,0 +1,61 @@
+{
+  "name": "move-it",
+  "id": "1066355102304082341",
+  "api": "1.0.0",
+  "editorType": ["figma"],
+  "main": "dist/code.js",
+  "menu": [
+    {
+      "name": "Move selection",
+      "command": "move",
+      "parameters": [
+        {
+          "name": "X coordinate",
+          "description": "Use +/- for relative values. Example: +100 or -40.",
+          "key": "x",
+          "allowFreeform": true,
+          "optional": true
+        },
+        {
+          "name": "Y coordinate",
+          "description": "Use +/- for relative values. Example: +100 or -40.",
+          "key": "y",
+          "allowFreeform": true,
+          "optional": true
+        }
+      ]
+    },
+    {
+      "name": "Resize selection",
+      "command": "resize",
+      "parameters": [
+        {
+          "name": "Width",
+          "description": "Use +/- for relative values. Example: +100 or -40.",
+          "key": "width",
+          "allowFreeform": true,
+          "optional": true
+        },
+        {
+          "name": "Height",
+          "description": "Use +/- for relative values. Example: +100 or -40.",
+          "key": "height",
+          "allowFreeform": true,
+          "optional": true
+        }
+      ]
+    },
+    {
+      "name": "Rotate",
+      "command": "rotate",
+      "parameters": [
+        {
+          "name": "Degrees",
+          "key": "degrees",
+          "allowFreeform": true,
+          "optional": false
+        }
+      ]
+    }
+  ]
+}
