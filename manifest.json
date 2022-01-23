@@ -44,18 +44,6 @@
           "optional": true
         }
       ]
-    },
-    {
-      "name": "Rotate",
-      "command": "rotate",
-      "parameters": [
-        {
-          "name": "Degrees",
-          "key": "degrees",
-          "allowFreeform": true,
-          "optional": false
-        }
-      ]
     }
   ]
 }

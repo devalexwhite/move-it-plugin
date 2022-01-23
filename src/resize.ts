@@ -1,9 +1,5 @@
 const SIGNS = ["-", "+"];
 
-function clone(val) {
-  return JSON.parse(JSON.stringify(val));
-}
-
 export default function resize({ width = "+0", height = "+0" }) {
   let widthDelta, heightDelta, leadingW, leadingH;
 
