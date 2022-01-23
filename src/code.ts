@@ -12,4 +12,6 @@ figma.on("run", ({ command, parameters }: RunEvent) => {
     default:
       break;
   }
+
+  figma.closePlugin();
 });
